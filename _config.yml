@@ -1,0 +1,34 @@
+#### Site Configuration ####
+
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Brendan Halliday
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Brendan "nogthree" Halliday
+
+# Your email if you want it to be linked on the contact page
+author_email: nog3@nog3.net
+
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
+url: http://nog3.net/
+
+#your github account URL
+github: nog3
+
+#your twitter handle
+twitter: n0g3
+
+
+
+#### Under the Hood Stuff #####
+
+# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
+# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
+# If you don't have it install it via gem install rdiscount
+markdown: rdiscount
+
+# Blog permalink. See Jekyll docs for alternatives.
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.md]
