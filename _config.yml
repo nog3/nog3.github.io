@@ -1,7 +1,7 @@
 name: "Brendan Halliday"
 description: ""
 
-url: "http://localhost:4000"
+url: "http://nog3.github.io"
 
 paginate: 4
 paginate_path: "page:num"
